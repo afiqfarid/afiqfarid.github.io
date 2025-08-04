@@ -1,0 +1,190 @@
+/*=============== FONT ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*=============== BASE ===============*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    height: 100%;
+    background-color: #282C33;
+    // background-color: #158FD4;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 0 !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    // color: #FDF6D7;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+div {
+    scroll-margin-top: 50px;
+}
+
+button,
+input {
+    border: none;
+    outline: none;
+}
+
+hr {
+    height: 1px;
+    background-color: #158FD4;
+    opacity: 1;
+    border: none;
+}
+
+.loader {
+    font-size: 3.5rem;
+    color: #FDF6D7;
+}
+
+section {
+    margin-bottom: 25px;
+
+    .section-title {
+        font-weight: 600;
+        font-size: 20px;
+        margin-bottom: 5px !important;
+    }
+
+    .section-desc {
+        // font-size: 15px;
+        margin-bottom: 10px !important;
+    }
+}
+
+/*=============== NAVBAR ===============*/
+.navbar2 {
+    background-color: #fff;
+    height: 50px;
+}
+
+/*=============== HERO ===============*/
+.hero {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.2);
+    // border: 1px solid #158FD4;
+    border-radius: 10px;
+
+    .hero-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hero-wrapper {
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .hero-img {
+        border-radius: 10px;
+        width: 50px;
+    }
+
+    .hero-socials {
+        display: flex;
+        gap: 10px;
+    }
+}
+
+/*=============== FEATURED ===============*/
+.featured {
+    .featured-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .featured-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border: 1px solid #158FD4;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .featured-img {
+        border: 1px solid #158FD4;
+    }
+
+    .featured-text {
+        padding: 30px;
+
+        .featured-text-title {
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 20px;
+            margin-bottom: 10px !important;
+        }
+
+        .featured-text-desc {
+            margin-bottom: 10px !important;
+        }
+    }
+
+    .featured-techs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+
+        .featured-tech {
+            background-color: rgba(0,0,0,0.4);
+            padding: 5px;
+        }
+    }
+}
+
+/*=============== SKILLS ===============*/
+.skills {
+
+    .skills-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .skills-card {
+        border: 1px solid #158FD4;
+        border-radius: 10px;
+        padding: 20px;
+    }
+}
