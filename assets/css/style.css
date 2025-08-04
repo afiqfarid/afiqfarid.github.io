@@ -107,8 +107,8 @@ section .section-desc {
   margin-bottom: 20px;
 }
 .hero .hero-img {
-  border-radius: 10px;
-  width: 50px;
+  border-radius: 100%;
+  width: 70px;
 }
 .hero .hero-socials {
   display: flex;
